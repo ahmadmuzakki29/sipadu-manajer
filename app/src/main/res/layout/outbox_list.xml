@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+
+    >
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="wrap_content"
+        android:layout_weight=".49"
+        android:layout_width="0dp"
+        >
+
+        <TextView
+            android:id="@+id/outboxAduan"
+            android:layout_marginTop="12dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:maxLines="3"
+            android:ellipsize="end" />
+        <TextView
+            android:id="@+id/outboxAduanTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="right"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="1dp"
+        android:layout_marginLeft="7dp"
+        android:layout_marginRight="7dp"
+
+        android:layout_height="fill_parent"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_height="fill_parent"
+        android:layout_weight=".49"
+        android:layout_width="0dp"
+        >
+        <TextView
+            android:id="@+id/outboxTindakLanjut"
+            android:layout_width="match_parent"
+            android:layout_marginTop="12dp"
+            android:layout_height="50dp"
+            android:maxLines="3"
+            android:ellipsize="end" />
+        <TextView
+            android:id="@+id/outboxTindakLanjutTanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="4dp"
+            android:gravity="right"
+            android:textSize="10dp" />
+
+    </LinearLayout>
+
+</LinearLayout> 

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="25dp"
+        android:orientation="horizontal"
+        android:layout_marginTop="15dp"
+        >
+
+        <TextView
+            android:layout_weight=".49"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="Aduan"
+            android:textSize="10dp"
+            android:background="@color/bluepale"
+
+            />
+        <Space
+            android:layout_width="0dp"
+            android:layout_weight="0.02"
+            android:layout_height="fill_parent" />
+        <TextView
+            android:background="@color/bluepale"
+            android:layout_weight=".49"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:text="Tindak Lanjut"
+            android:textSize="10dp"
+            />
+
+    </LinearLayout>
+    <ListView
+        android:layout_margin="7dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/outboxContent">
+    </ListView>
+</LinearLayout>
